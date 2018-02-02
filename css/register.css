@@ -1,0 +1,10 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+ }
+ .input-field input[type=text]:focus + label {
+      color: #18a7e9 !important;
+    }
+    .input-field input:focus {
+      border-bottom: 1px solid #18a7e9 !important;
+      box-shadow: 0 1px 0 0 #18a7e9 !important;
+    }
